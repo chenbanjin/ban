@@ -32,7 +32,7 @@
                 "Easemob" : "Ban\\Facades\\Easemob"
             },
             "providers": [
-                "Ban\\Easemob\\EasemobServiceProvider"
+                "Ban\\EasemobServiceProvider"
             ]
         }
     }
