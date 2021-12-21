@@ -23,7 +23,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Ban\\Easemob\\": "src/"
+            "Ban\\": "src/"
         } 
     },
     "extra": {
