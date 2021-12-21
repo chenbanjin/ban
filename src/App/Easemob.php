@@ -1,5 +1,5 @@
 <?php
-namespace Ban\Easemob\App;
+namespace ban\Easemob\App;
 
 use Config;
 use Cache;

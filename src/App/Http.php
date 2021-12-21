@@ -4,8 +4,8 @@
  * User: banjin
  * Date: 2021/12/7
  * Time: 14:57
- */
-namespace Ban\Easemob\App;
+ */ 
+namespace ban\Easemob\App;
 
 use Cache;
 
