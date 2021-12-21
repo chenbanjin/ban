@@ -9,6 +9,7 @@
     "license": "MIT",
     "minimum-stability": "stable",
     "type": "library",
+     "version": "0.0.1",
     "require": {
         "php": ">=5.6.4",
         "ext-curl": "*",
@@ -22,13 +23,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Ban\\": "src/"
-        }
+            "Ban\\Easemob\\": "src/"
+        } 
     },
     "extra": {
         "laravel": {
             "aliases": {
-                "EaseMob" : "Ban\\Facades\\Easemob"
+                "Easemob" : "Ban\\Facades\\Easemob"
             },
             "providers": [
                 "Ban\\EasemobServiceProvider"
