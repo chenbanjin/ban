@@ -12,7 +12,7 @@ class EaseMobTestService
 {
 
     public function index()
-    {
-        echo "1111This is test package ...";
+    { 
+        echo "1111This is test package ...33";
     }
 }
