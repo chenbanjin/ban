@@ -1,5 +1,5 @@
 <?php
-namespace ban;
+namespace Ban\Easemob;
 
 use Illuminate\Support\ServiceProvider;
 
