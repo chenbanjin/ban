@@ -1,10 +1,10 @@
 <?php
-namespace ban\Easemob\App;
+namespace ban\App;
 /**
  * Created by PhpStorm.
- * User: banjin
- * Date: 2021/12/7
- * Time: 14:57 
+ * User: link
+ * Date: 2016/12/6
+ * Time: 15:44
  */
 class ErrorMessage
 {

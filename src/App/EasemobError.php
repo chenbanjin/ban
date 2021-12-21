@@ -5,7 +5,7 @@
  * Date: 2016/12/6
  * Time: 15:43
  */
-namespace ban\Easemob\App;
+namespace ban\App;
 
 class EasemobError extends \Exception
 {

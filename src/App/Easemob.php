@@ -1,8 +1,10 @@
 <?php
-namespace ban\Easemob\App;
+
+namespace ban\App;
 
 use Config;
 use Cache;
+use Ban\App\Http;
 
 class Easemob
 {
@@ -34,13 +36,13 @@ class Easemob
     public $target_array = [ 'users', 'chatgroups', 'chatrooms' ];
 
     /***********************   发送消息   **********************************/
-    use EasemobMessages;
+    // use EasemobMessage;
 
     /***********************   群管理   **********************************/
-    use EasemobGroups;
+    // use EasemobGroup;
 
     /***********************   聊天室管理   **********************************/
-    use EasemobRooms;
+    // use EasemobRoom;
 
     public function __construct()
     {
@@ -89,7 +91,7 @@ class Easemob
      */
     public function authorizationRegistration($name, $password = '123456')
     {
-        $url          = $this->url.'metadata/user';
+        $url          = $this->url.'user';
         $option       = [
             'username' => $name,
             'password' => $password,

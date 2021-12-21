@@ -3,7 +3,7 @@ namespace ban;
 
 use Illuminate\Support\ServiceProvider;
 
-use ban\Easemob\App\Easemob;
+use Ban\App\Easemob;
 
 class EasemobServiceProvider extends ServiceProvider
 {
@@ -49,7 +49,7 @@ class EasemobServiceProvider extends ServiceProvider
         );
 
         // 容器绑定
-        $this->app->bind('EaseMob', function () {
+        $this->app->bind('Easemob', function () {
             return new Easemob();
         });
     }

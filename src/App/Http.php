@@ -1,11 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: banjin
- * Date: 2021/12/7
- * Time: 14:57
- */ 
-namespace ban\Easemob\App;
+
+namespace Ban\App;
 
 use Cache;
 
