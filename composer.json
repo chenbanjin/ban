@@ -1,16 +1,28 @@
 {
     "name": "ban/easemob",
     "description": "seaaasen",
-    "autoload": {
-        "psr-4": {
-            "Ban\\": "src/" 
-        }
+    "keywords": [
+        "banjin",
+        "laravel",
+        "easemob"
+    ],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "type": "library",
+    "require": {
+        "php": ">=5.6.4",
+        "ext-curl": "*",
+        "ext-json": "*"
     },
     "authors": [
         {
             "name": "banjin",
             "email": "banjin@qq.com"
         }
-    ],
-    "require": {}
+    ]
+    "autoload": {
+        "psr-4": {
+            "Ban\\": "src/" 
+        }
+    }
 }
