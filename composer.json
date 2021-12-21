@@ -25,15 +25,5 @@
         "psr-4": {
             "Ban\\": "src/"
         } 
-    },
-    "extra": {
-        "laravel": {
-            "aliases": {
-                "Easemob" : "Ban\\Facades\\Easemob"
-            },
-            "providers": [
-                "Ban\\EasemobServiceProvider"
-            ]
-        }
     }
 }
