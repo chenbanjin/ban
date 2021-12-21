@@ -1,0 +1,16 @@
+{
+    "name": "ban/easemob",
+    "description": "seaaasen",
+    "autoload": {
+        "psr-4": {
+            "Ban\\": "src/" 
+        }
+    },
+    "authors": [
+        {
+            "name": "banjin",
+            "email": "banjin@qq.com"
+        }
+    ],
+    "require": {}
+}
