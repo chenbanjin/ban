@@ -19,7 +19,7 @@
             "name": "banjin",
             "email": "banjin@qq.com"
         }
-    ]
+    ],
     "autoload": {
         "psr-4": {
             "Ban\\": "src/" 
